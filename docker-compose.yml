@@ -1,0 +1,8 @@
+  vaadin:
+    build: ./
+    working_dir: /usr/local/vaadin/vaadin-app/vaadin-app-ui
+    command: /bin/bash -c "mvn jetty:run"
+    ports:
+      - "8080:8080"
+    # volumes:
+    #   - .:/usr/local/vaadin/
